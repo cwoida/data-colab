@@ -929,7 +929,7 @@
 /* Header */
 
 	body.landing #header {
-		background-color: transparent;
+		background-color: #666;
 		left: 0;
 		position: absolute;
 		top: 0;
