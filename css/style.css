@@ -929,7 +929,7 @@
 /* Header */
 
 	body.landing #header {
-		background-color: #666;
+		background-color: transparent;
 		left: 0;
 		position: absolute;
 		top: 0;
@@ -986,18 +986,15 @@
 				}
 
 					#header nav > ul > li a {
-						-moz-transition: color 0.2s ease-in-out;
-						-webkit-transition: color 0.2s ease-in-out;
-						-o-transition: color 0.2s ease-in-out;
-						-ms-transition: color 0.2s ease-in-out;
-						transition: color 0.2s ease-in-out;
-						color: #cdced0;
+
+						color: #ffffff;
 						display: inline-block;
 						text-decoration: none;
 					}
 
 						#header nav > ul > li a:active, #header nav > ul > li a:hover {
 							color: #ffffff;
+							text-decoration: underline;
 						}
 
 					#header nav > ul > li:first-child {
