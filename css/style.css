@@ -36,7 +36,7 @@
 	}
 
 	a {
-		color: #383b43;
+		color: #666;
 		text-decoration: none;
 	}
 
@@ -253,8 +253,8 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #383b43;
-			box-shadow: 0 0 0 1px #383b43;
+			border-color: #666;
+			box-shadow: 0 0 0 1px #666;
 		}
 
 	.select-wrapper {
@@ -365,8 +365,8 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #383b43;
-			box-shadow: 0 0 0 1px #383b43;
+			border-color: #666;
+			box-shadow: 0 0 0 1px #666;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -449,7 +449,7 @@
 		}
 
 		.icon.rounded {
-			background-color: #383b43;
+			background-color: #666;
 			border-radius: 100%;
 			color: #ffffff;
 			display: inline-block;
@@ -894,7 +894,7 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #383b43;
+			background-color: #666;
 			color: #ffffff !important;
 		}
 
@@ -940,7 +940,7 @@
 		}
 
 	#header {
-		background-color: #383b43;
+		background-color: #666;
 		color: #ffffff;
 		cursor: default;
 		font-size: 1.1em;
@@ -1135,7 +1135,7 @@
 /* Footer */
 
 	#footer {
-		background: #383b43;
+		background: #666;
 		padding: 6em 0em 4em;
 	}
 
